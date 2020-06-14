@@ -1,7 +1,7 @@
 <img width="2074" alt="SunFlow Image" src="https://user-images.githubusercontent.com/65338147/84592654-9392bd80-ae47-11ea-9712-a1f59069b32f.png">
 
 
-# SunFlow: Supply Network Modeling & Optimization
+# Design & Optimize your Supply Networks
 
 
 
