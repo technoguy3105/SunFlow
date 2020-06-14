@@ -21,7 +21,7 @@ The SunFlow library file sunflow.py can be found in folder lib. To add the libra
 Dependencies
 ------------
 
-SunFlow support Python 3.7+
+SunFlow support Python 3.6+
 
 Installation requires [numpy](http://www.numpy.org/), [scipy](http://www.scipy.org/), [pandas](http://pandas.pydata.org/) and [graphviz](https://www.graphviz.org).
 
