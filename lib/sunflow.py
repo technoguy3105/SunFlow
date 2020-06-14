@@ -10,28 +10,27 @@
 #
 # ---------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------
+#
+# Path definitions
+#
+sunFlowChartPath = 'py/pydata/tempdata/sunflowtemp/'      # path, where graph charts are saved
+sunFlowFramePath = 'py/pydata/tempdata/sunflowtemp/'      # path, where the result of optimization is saved
+sunFlowDataPath  = 'py/pydata/datasets/'                  # path, from where freight tables being loaded
+
+azure = False
+
+# ---------------------------------------------------------------------------
+# Imports
+# ---------------------------------------------------------------------------
+
 from graphviz import Digraph
 import numpy as np
 from scipy.optimize import linprog
 import pprint as pp
 import pandas as pd
 import sys
-
 import aitpath
-
-def version(): return "SunFlow  1.0 / 14.6.20   Copyright (c) AI-Technologies"
-
-# ----------------------------------------------------------------------------
-#
-# Path definitions
-#
-
-sys_user                = '/users/'+aitpath.sysUser()+'/'
-sunFlowGraphicsDir      = 'py/pydata/tempdata/sunflowtemp/'      # path, where graphics are saved
-sunFlowDefaultSheetPath = 'py/pydata/tempdata/sunflowtemp/'      # Optimization().save() => path, where Excel result of optimization
-sunFlowDefaultDataPath  = 'py/pydata/datasets/'                  # System().loadFreights() => path, from where freight table being loaded
-
-azure = False
 
 # ----------------------------------------------------------------------------
 #
@@ -103,6 +102,12 @@ find_freight_entry          = 2
 
 
 initSF   = False
+
+sys_user                = '/users/'+aitpath.sysUser()+'/'
+sunFlowGraphicsDir      = sunFlowChartPath      # path, where graphics are saved
+sunFlowDefaultSheetPath = sunFlowFramePath      # Optimization().save() => path, where Excel result of optimization
+sunFlowDefaultDataPath  = sunFlowDataPath       # System().loadFreights() => path, from where freight table being loaded
+
     
 opt_quantities = 'quantities'
 opt_cost = 'cost'
@@ -283,6 +288,8 @@ _substitutes = Substitutes()
 # Muss die letzte globale Klasse / Variable sein !!!!!!!!
 # ---------------------------------------------------------
 #
+def version(): return "SunFlow  1.01 / 14.6.20   Copyright (c) AI-Technologies"
+
 class _System:
     def __str__(self): return "<Class '{}'|{}>".format(self.__class__.__name__,self.name())  
     def show(self,details=False): 
