@@ -31,5 +31,5 @@ Installation requires [numpy](http://www.numpy.org/), [scipy](http://www.scipy.o
 Installation
 ------------
 
-bla bla
+To install SunFlow
 
