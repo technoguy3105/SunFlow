@@ -1,4 +1,31 @@
-SunFlow  Installation
-=====================
+SunFlow Installation
+====================
+
+SunFlow requires the following steps before usage:
+
+	1) copy sunflow.py into your library directory
+	2) Update your system path to this directory
+
+Both steps are describe here.
+
+1) Copy the file sunflow.py into your library directory. If there is no such directory, create one - for example /py/libs/ and copy sunflow.py into this directory.   
+   
+2) Ensure that the path to the library directory can be found by python at the time of import. The easiest way is adapting your path-variable. If this doesn't work or is not apllicable, you should copy aitpath.py first into your python directory 
+
+	/python3.7/site-packages/IPython/extensions
+
+and adapt afterwards the file aitpath.py to your requirements. To do so, set the variable sys_user in function sysUser() to your operating system's user name - for example 'peter' - and add this path to the system's path by
+
+	sys.path.append('/users/'+sys_user+'/Py/libs')
+
+The final definitions inside aitpath.py after modifications could look as follows:
+
+	def sysUser():
+    	   platform = operatingSystem()
+    	   return 'peter'
+
+	sys.path.append('/users/'+sys_user+'/Py/Libs')
+
+The functions sysUser() must be kept, since it is required by SunFlow.
 
 
