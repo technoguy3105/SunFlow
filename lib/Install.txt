@@ -4,8 +4,9 @@ SunFlow Installation
 SunFlow requires the following steps before usage:
 
 	1) copy 'sunflow.py' into your library directory, which keep your private import libs,
-	2) update your system path to this directory ensuring that import find the SunFlow library and
-	3) set the paths for charts, data and frames.
+	2) update your system path to this directory ensuring that import find the SunFlow library,
+	3) set the paths for charts, data and frames and 
+	4) copy the data file from the data folder to your data directory.
 
 The three steps are described here.
 
@@ -75,4 +76,11 @@ Variant B is the recommended one and doesn't require a modification of the lib's
 			frame  = 'py/sunflow/data/')
 
 And of course, you may change them whenever you want inside your program.
+
+
+
+Step 4
+======
+
+Once you have defined your data directory copy the files from repository folder 'data' into your data directory. 
 
