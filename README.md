@@ -5,10 +5,10 @@
 
 
 
-Documentation
--------------
+Documentation & Tutorials
+-------------------------
 
-The documentation include a tutorial (see folder tutorial) and examples (see folder examples).
+The documentation - see folder tutorial - include the tutorials part I & II which explain SunFlow's capabilities and their usage by illustrative examples step by step. Their source code can be found inside the examples folder.
 
 
 Library
