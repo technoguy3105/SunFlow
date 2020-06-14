@@ -1,3 +1,6 @@
-Here you find a short introduction into the concepts and purpose of SunFlow in a textual summary. 
+SunFlow Tutorial
+================
 
-In teh folder examples you'll find ready to run example files in the Anaconda notebook format.
+The tutorial is a short introduction into the concepts and purpose of SunFlow as a textual summary. 
+
+The ready-to-run examples you'll find in the folder examples. All examples are in the Anaconda notebook format.
