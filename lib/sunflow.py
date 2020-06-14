@@ -288,7 +288,7 @@ _substitutes = Substitutes()
 # Muss die letzte globale Klasse / Variable sein !!!!!!!!
 # ---------------------------------------------------------
 #
-def version(): return "SunFlow  1.01 / 14.6.20   Copyright (c) AI-Technologies"
+def version(): return "SunFlow  1.02 / 14.6.20   Copyright (c) AI-Technologies"
 
 class _System:
     def __str__(self): return "<Class '{}'|{}>".format(self.__class__.__name__,self.name())  
@@ -3179,7 +3179,13 @@ class Graph:
 #
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-def SunFlow(showVersion=False): return InitSunflow(showVersion=showVersion)
-def InitSunflow(showVersion=False): 
+def SunFlow(showVersion=False, charts='', data='', frame=''): 
+    return InitSunflow(charts=charts, data=data, frame=frame, showVersion=showVersion)
+def InitSunflow(charts='', data='', frame='', showVersion=False): 
     if showVersion: print(version())
-    return System.init()
+        
+    sunFlowChartPath = 'py/pydata/tempdata/sunflowtemp/' if charts=='' else charts
+    sunFlowFramePath = 'py/pydata/tempdata/sunflowtemp/' if frame=='' else frame 
+    sunFlowDataPath  = 'py/pydata/datasets/'             if data==''  else data
+    
+    return System.init().chartDir(sunFlowChartPath).dataDir(sunFlowDataPath).frameDir(sunFlowFramePath)
