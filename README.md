@@ -31,5 +31,5 @@ Installation requires [numpy](http://www.numpy.org/), [scipy](http://www.scipy.o
 Installation
 ------------
 
-To install SunFlow on your computer press 'Clone or Download' xxx page of GitHub and choose the ZIP option. Then it will be copied into a folder SunFlow, containing the complete repository. 
+To install SunFlow on your computer press 'Clone or Download' on the Repository site of GitHub/AIT/SunFlow and choose the ZIP option. Then it will be copied into a folder SunFlow, containing the complete repository. To proceed further, read to guide in folder xxx.
 
