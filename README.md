@@ -27,6 +27,12 @@ Installation requires [numpy](http://www.numpy.org/), [scipy](http://www.scipy.o
 
 
 
+Data
+----
+
+Some of the examples use data which can be found inside the folder data.
+
+
 
 Installation
 ------------
