@@ -5,8 +5,13 @@
 Documentation
 -------------
 
-The docs include a tutorial (see folder tutorial) and examples (see folder examples).
+The documentation include a tutorial (see folder tutorial) and examples (see folder examples).
 
+
+Library
+-------
+
+The SunFlow library file sunflow.py can be found in folder lib. To add the library or import search path at load-time, the file aitpath.py from lib folder can be used after adaption to the user's directory settings. Its usage is described in the examples.
 
 
 
