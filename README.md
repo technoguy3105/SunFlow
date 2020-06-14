@@ -23,7 +23,7 @@ Dependencies
 
 SunFlow supports Python 3.6+
 
-Installation requires [numpy](http://www.numpy.org/), [scipy](http://www.scipy.org/), [pandas](http://pandas.pydata.org/) and [graphviz](https://www.graphviz.org).
+The installation requires [numpy](http://www.numpy.org/), [scipy](http://www.scipy.org/), [pandas](http://pandas.pydata.org/) and [graphviz](https://www.graphviz.org).
 
 
 
