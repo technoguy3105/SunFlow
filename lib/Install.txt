@@ -58,7 +58,7 @@ Assuming that you create a directory 'sunflow' and within this directory the two
 	#
 	# Path definitions
 	#
-	sunFlowChartPath = 'py/sunflow/charts'  
+	sunFlowChartPath = 'py/sunflow/charts/'  
 	sunFlowFramePath = 'py/sunflow/data/'   	
 	sunFlowDataPath  = 'py/sunflow/data/'
 
