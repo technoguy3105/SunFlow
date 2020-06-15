@@ -8,7 +8,7 @@ SunFlow requires the following steps before usage:
 	3) set the paths for charts, data and frames and 
 	4) copy the data file from the data folder to your data directory.
 
-The three steps are described here.
+These steps are described here.
 
 Step 1
 ======
