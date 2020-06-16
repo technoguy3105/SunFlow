@@ -3,7 +3,7 @@
 
 # Design & Optimize your Supply Chain
 
-SunFlow is a tool to model and optimize your Supply Chains. In SunFlow a model is made of materials, compoments, parts, products, substitutes, suppliers, manufactures, distribution and customers - just to mention the major ones - together with fix and variable costs and capacities. 
+SunFlow is a tool to model and optimize your Supply Chains. In SunFlow a model is made of materials, components, parts, products, substitutes, suppliers, manufactures, distributors and customers - just to mention the major ones - together with fix and variable costs, capacities and other constraints. 
 
 
 Tutorials
