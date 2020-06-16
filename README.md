@@ -30,9 +30,9 @@ The optimized model show active (blue) and inactive flows (gray) as well as acti
 Network Compiler
 ----------------
 
-kjhksfhsk
+SunFlow's Supply Networks are build up in a way Supply Chain Architects are thinking: by compoments, material, products, suppliers, plants, assambly lines, reactors, warehouses, distribution centers, customers, markets,...  The above shown illustrations are made by the Python example below.
 
-
+<img width="978" alt="Taycan Code" src="https://user-images.githubusercontent.com/65338147/84736175-8ab7fe00-afa5-11ea-943e-5b16238f9f60.png">
 
 
 Library
