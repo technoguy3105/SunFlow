@@ -11,6 +11,13 @@ Tutorials
 The tutorials (part I & II) explain SunFlow's capabilities and their usage by illustrative examples step-by-step. Their source code can be found inside the examples folder. To see the tutorial's graph charts as well in the example programs, you have to execute the tutorial files (Jupyter Notebook files) since they are not shown under GitHub.  
 
 
+Powerful Graphics
+-----------------
+
+Powerful graphs.
+
+
+
 Library
 -------
 
