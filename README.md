@@ -22,7 +22,7 @@ Once you got the network you execute the potential flows to identify the cost-op
 
 <img width="991" alt="Taycan GraphOpt" src="https://user-images.githubusercontent.com/65338147/84734883-6a3a7480-afa2-11ea-90ff-f63ed025800f.png">
 
-The optimized model show active (blue) and inactive flows (gray) as well as active participants (gray boxes) and inactive participants (white boxes). In complex model this could be confusing. Therefore you can show those vertices and edges only, which have an active flow (see below).
+The optimized model show active (blue) and inactive flows (gray) as well as active participants (gray boxes) and inactive participants (white boxes). In complex models this could be confusing. Therefore you can show those vertices and edges only, which have an active flow (see below).
 
 <img width="936" alt="TaycanGraphOptFlowOnly" src="https://user-images.githubusercontent.com/65338147/84734892-70c8ec00-afa2-11ea-857f-b9a4401522c5.png">
 
@@ -30,7 +30,7 @@ The optimized model show active (blue) and inactive flows (gray) as well as acti
 Network Compiler
 ----------------
 
-SunFlow's Supply Networks are build up in a way Supply Chain Architects are thinking: by compoments, material, products, suppliers, plants, assambly lines, reactors, warehouses, distribution centers, customers, markets,...  The above shown illustrations are made by the Python example below.
+SunFlow's Supply Networks are build up in a way Supply Chain Architects think: in terms of compoments, material, products, suppliers, plants, assambly lines, reactors, warehouses, distribution centers, customers, markets,...  The above shown illustrations are made by the Python example below.
 
 <img width="978" alt="Taycan Code" src="https://user-images.githubusercontent.com/65338147/84736175-8ab7fe00-afa5-11ea-943e-5b16238f9f60.png">
 
