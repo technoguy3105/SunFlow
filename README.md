@@ -14,15 +14,15 @@ The tutorials (part I & II) explain SunFlow's capabilities and their usage by il
 Powerful Graphics
 -----------------
 
-Powerful graphs.
+SunFlow got powerful graphics. Your network can be displayed at any time. The schematic assembly of a Porsche Taycan electric is used as an example. First you graph the network with all potential connections and definitions for cost, freight and capacities.
 
 <img width="930" alt="Taycan Graph" src="https://user-images.githubusercontent.com/65338147/84734869-63136680-afa2-11ea-9587-22faee26e7a3.png">
 
-optimizing
+Once you got the network you execute the potential flows to identify the cost-optimal flow, i.e. you optimize it. Our optimized network is shown below.
 
 <img width="991" alt="Taycan GraphOpt" src="https://user-images.githubusercontent.com/65338147/84734883-6a3a7480-afa2-11ea-90ff-f63ed025800f.png">
 
-result
+The 
 
 <img width="936" alt="TaycanGraphOptFlowOnly" src="https://user-images.githubusercontent.com/65338147/84734892-70c8ec00-afa2-11ea-857f-b9a4401522c5.png">
 
