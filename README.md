@@ -3,12 +3,13 @@
 
 # Design & Optimize your Supply Chain
 
-ljgdlgjdlgkjg
+SunFlow is a tool to model and optimize your Supply Chains. In SunFlow a model is made of materials, compoments, parts, products, substitutes, suppliers, manufactures, distribution and customers - just to mention the major ones - together with fix and variable costs and capacities. 
+
 
 Tutorials
 ---------
 
-The tutorials (part I & II) explain SunFlow's capabilities and their usage by illustrative examples step-by-step. Their source code can be found inside the examples folder. To see the tutorial's graph charts as well in the example programs, you have to execute the tutorial files (Jupyter Notebook files) since they are not shown under GitHub.  
+Illustrative tutorials explain SunFlow's capabilities and their usage by examples step-by-step. Their source code is inside the examples folder.
 
 
 Powerful Graphics
