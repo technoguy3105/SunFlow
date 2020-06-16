@@ -9,7 +9,7 @@ SunFlow is a tool to model and optimize your Supply Chains. In SunFlow a model i
 Tutorials
 ---------
 
-Illustrative tutorials explain SunFlow's capabilities and their usage by examples step-by-step. Their source code is inside the examples folder.
+Illustrative tutorials explain SunFlow's capabilities and their usage by Python examples step-by-step. Their source code is inside the examples folder.
 
 
 Powerful Graphics
