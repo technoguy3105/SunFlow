@@ -16,7 +16,12 @@ Powerful Graphics
 
 Powerful graphs.
 
+<img width="930" alt="Taycan Graph" src="https://user-images.githubusercontent.com/65338147/84734869-63136680-afa2-11ea-9587-22faee26e7a3.png">
 
+optimizing
+
+
+result
 
 
 
