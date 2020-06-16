@@ -14,7 +14,7 @@ The tutorials (part I & II) explain SunFlow's capabilities and their usage by il
 Powerful Graphics
 -----------------
 
-SunFlow got powerful graphics. Your network can be displayed at any time. The schematic assembly of a Porsche Taycan electric is used as an example. First you graph the network with all potential connections and definitions for cost, freight and capacities.
+SunFlow got powerful graphics. Your network can be displayed at any time. Have a look on the schematic assembly of a Porsche Taycan electric as an example. First you graph the network with all potential connections and definitions for cost, freight, capacities, products, components, suppliers, plants, distribution centers and customers or markets.
 
 <img width="930" alt="Taycan Graph" src="https://user-images.githubusercontent.com/65338147/84734869-63136680-afa2-11ea-9587-22faee26e7a3.png">
 
