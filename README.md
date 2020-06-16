@@ -39,7 +39,7 @@ SunFlow's supply networks are build up in a way Supply Chain Architects think: i
 Library
 -------
 
-The SunFlow library file 'sunflow.py' can be found in folder 'lib'. To add the library or import search path at load-time, the file 'aitpath.py' from 'lib' folder can be used after adaption to the your directory settings. Its usage is described in the examples.
+SunFlow's library 'sunflow.py' is in the folder 'lib' together with an installation guide.
 
 
 
@@ -55,12 +55,12 @@ The installation requires [numpy](http://www.numpy.org/), [scipy](http://www.sci
 Data
 ----
 
-Some of the examples use data which can be found inside the folder 'data'.
+Some of the examples use data which are inside the folder 'data'.
 
 
 
 Installation
 ------------
 
-To install SunFlow on your computer, press 'Clone or download' on SunFlow's Repository site and choose the 'Download ZIP' option. Then SunFlow will be copied into a folder 'SunFlow' in your download directory, containing the complete repository. To proceed further, read the guide in the folder 'lib'.
+To install SunFlow on your computer, press 'Clone or download' on SunFlow's Repository site and choose the 'Download ZIP' option. Then SunFlow will be copied into a folder 'SunFlow' or zip inside your download directory, containing the complete SunFlow repository. To proceed further, read the installation guide of folder 'lib'.
 
